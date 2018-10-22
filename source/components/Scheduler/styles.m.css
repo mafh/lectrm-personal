@@ -103,8 +103,9 @@
             }
 
             & ul {
-                min-height: 370px;
-                max-height: 370px;
+                /* min-height: 370px; */
+                /* max-height: 370px; */
+                height: calc(100vh - 400px);
                 overflow: scroll;
 
                 &::-webkit-scrollbar {
